@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Alegreya Sans";
+}
+
+p {
+    font-size: 24px;
+    font-family: "Alegreya", serif;
+}
+
+.section {
+    background-image: url(drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    position: relative;
+}
+
+.navlogo {
+    width: 13%;
+    float: left;
+    margin-top: 10px;
+}
+
+.navlogo img {
+    width: 100%;
+}
+
+.list ul {
+    float: right;
+    margin-top: 10px;
+}
+
+.list ul li {
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+}
+
+.list ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.clr {
+    clear: both;
+}
+
+.conter {
+    width: 90%;
+    margin: auto;
+}
+
+.cont {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btns {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 17px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 20px 5px;
+    text-decoration: none;
+
+}
+
+.btn-one {
+    background-color: #8e7754;
+}
+
+.btn-two {
+    background-color: transparent;
+    border: 2px solid white;
+}
+.who {
+    width: 100%;
+    padding: 65px;
+}
+.who .left {
+    width: 45%;
+    display: inline-block;
+}
+.who .left img{
+    width: 550px;
+}
+.who .right {
+    font-family: "Alegreya Sans";
+    width: 45%;
+    padding: 20px 0 20px 60px;
+    display: inline-block;
+    vertical-align: top;
+}
+.who .right h2 {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 33px;
+}
+.who .right p {
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15.7px;
+} 
+.who .right .info {
+    margin-top: 40px;
+}
+.who .right .info div {
+    margin-bottom: 20px;
+}
+.who .right .info img {
+    width: 45px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.who .left {
+    float: left;
+    padding-top: 100px;
+}
+.who .left h2 {
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-size: 33px;
+}
+.who .left p {
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15.7px;
+}
+.who .right img {
+    width: 550px;
+}
+.our-baking{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.our-baking h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 33px;
+}
+.our-baking p {
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15.7px;
+    margin-bottom: 20px;
+}
+.bake-item{
+    width: 32.33%;
+    display: inline-block;
+}
+.bake-item h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.our-baking img{
+    width: 350px;
+}
+.contact {
+    width: 100%;
+    padding: 40px;
+}
+.contact .inform {
+    width: 45%;
+    padding: 20px 0 20px 60px;
+    display: inline-block;
+}
+.contact .inform h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 33px;
+}
+.contact .inform p {
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.contact .inform .info img {
+    width: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #8e7754;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.contact .map {
+    float: right;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    float: left;
+}
+.item{
+    width: 24%;
+    float: left;
+    margin-right: 10px;
+    /* display: inline-block; */
+}
+.item h3 {
+    color: #eee;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.item p {
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.item .info div {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #aaaaaa59;
+    color: #aaa;
+}
+.item img {
+    width: 30px;
+    vertical-align: middle;
+}
+.social {
+    background-color: black;
+}
+.social .logo img{
+    margin-left: 500px;
+}
+.social p {
+    text-align: center;
+    color: #777;
+    line-height: 1.86em;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.social .icons {
+    margin-left: 570px;
+}
+.social .icons img {
+    width: 40px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: black;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+
